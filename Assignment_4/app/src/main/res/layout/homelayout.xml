@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:rowCount="1"
+    android:columnCount="8"
+    android:id="@+id/HomeMainGrid">
+    <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_columnWeight="0.125"
+        android:layout_height="wrap_content"
+        android:rowCount="3"
+        android:columnCount="1"
+        android:layout_row="0"
+        android:layout_column="0">
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Day"
+            android:id="@+id/day"
+            android:layout_row="0"
+            android:layout_column="0" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Mor"
+            android:id="@+id/mor"
+            android:layout_row="1"
+            android:layout_column="0" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Eve"
+            android:id="@+id/eve"
+            android:layout_row="2"
+            android:layout_column="0" />
+    </GridLayout>
+    <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_columnWeight="0.125"
+        android:layout_height="wrap_content"
+        android:rowCount="3"
+        android:columnCount="1"
+        android:layout_row="0"
+        android:layout_column="1"
+        android:id="@+id/sun_grid"
+        android:clickable="true"
+        android:onClick="sunPressed">
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Sun"
+            android:id="@+id/sun"
+            android:layout_row="0"
+            android:layout_column="0" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text=""
+            android:id="@+id/sun_mor"
+            android:layout_row="1"
+            android:layout_column="0" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text=""
+            android:id="@+id/sun_eve"
+            android:layout_row="2"
+            android:layout_column="0" />
+    </GridLayout>
+    <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_columnWeight="0.125"
+        android:layout_height="wrap_content"
+        android:id="@+id/mon_grid"
+        android:rowCount="3"
+        android:columnCount="1"
+        android:layout_row="0"
+        android:layout_column="2"
+        android:clickable="true"
+        android:onClick="monPressed">
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Mon"
+            android:id="@+id/mon"
+            android:layout_row="0"
+            android:layout_column="0" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text=""
+            android:id="@+id/mon_mor"
+            android:layout_row="1"
+            android:layout_column="0" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text=""
+            android:id="@+id/mon_eve"
+            android:layout_row="2"
+            android:layout_column="0" />
+    </GridLayout>
+    <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_columnWeight="0.125"
+        android:layout_height="wrap_content"
+        android:id="@+id/tue_grid"
+        android:rowCount="3"
+        android:columnCount="1"
+        android:layout_row="0"
+        android:layout_column="3"
+        android:clickable="true"
+        android:onClick="tuePressed">
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Tue"
+            android:id="@+id/tue"
+            android:layout_row="0"
+            android:layout_column="0" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text=""
+            android:id="@+id/tue_mor"
+            android:layout_row="1"
+            android:layout_column="0" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text=""
+            android:id="@+id/tue_eve"
+            android:layout_row="2"
+            android:layout_column="0" />
+    </GridLayout>
+    <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_columnWeight="0.125"
+        android:layout_height="wrap_content"
+        android:id="@+id/wed_grid"
+        android:rowCount="3"
+        android:columnCount="1"
+        android:layout_row="0"
+        android:layout_column="4"
+        android:clickable="true"
+        android:onClick="wedPressed">
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Wed"
+            android:id="@+id/wed"
+            android:layout_row="0"
+            android:layout_column="0" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text=""
+            android:id="@+id/wed_mor"
+            android:layout_row="1"
+            android:layout_column="0" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text=""
+            android:id="@+id/wed_eve"
+            android:layout_row="2"
+            android:layout_column="0" />
+    </GridLayout>
+    <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_columnWeight="0.125"
+        android:layout_height="wrap_content"
+        android:id="@+id/thu_grid"
+        android:rowCount="3"
+        android:columnCount="1"
+        android:layout_row="0"
+        android:layout_column="5"
+        android:clickable="true"
+        android:onClick="thuPressed">
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Thu"
+            android:id="@+id/thu"
+            android:layout_row="0"
+            android:layout_column="0" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text=""
+            android:id="@+id/thu_mor"
+            android:layout_row="1"
+            android:layout_column="0" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text=""
+            android:id="@+id/thu_eve"
+            android:layout_row="2"
+            android:layout_column="0" />
+    </GridLayout>
+    <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_columnWeight="0.125"
+        android:layout_height="wrap_content"
+        android:id="@+id/fri_grid"
+        android:rowCount="3"
+        android:columnCount="1"
+        android:layout_row="0"
+        android:layout_column="6"
+        android:clickable="true"
+        android:onClick="friPressed">
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Fri"
+            android:id="@+id/fri"
+            android:layout_row="0"
+            android:layout_column="0" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text=""
+            android:id="@+id/fri_mor"
+            android:layout_row="1"
+            android:layout_column="0" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text=""
+            android:id="@+id/fri_eve"
+            android:layout_row="2"
+            android:layout_column="0" />
+    </GridLayout>
+    <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_columnWeight="0.125"
+        android:layout_height="wrap_content"
+        android:id="@+id/sat_grid"
+        android:rowCount="3"
+        android:columnCount="1"
+        android:layout_row="0"
+        android:layout_column="7"
+        android:clickable="true"
+        android:onClick="satPressed">
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Sat"
+            android:id="@+id/sat"
+            android:layout_row="0"
+            android:layout_column="0" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text=""
+            android:id="@+id/sat_mor"
+            android:layout_row="1"
+            android:layout_column="0" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text=""
+            android:id="@+id/sat_eve"
+            android:layout_row="2"
+            android:layout_column="0" />
+    </GridLayout>
+
+</GridLayout>
