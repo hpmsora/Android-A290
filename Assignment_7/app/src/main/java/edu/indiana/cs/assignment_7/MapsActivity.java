@@ -254,7 +254,7 @@ public class MapsActivity extends FragmentActivity implements
     private void stepCounting() {
         isCount = false;
         stepTimer.start();
-        locationManager.requestLocationUpdates(locationManager.GPS_PROVIDER, 5000, 0, locationListener);
+        locationManager.requestLocationUpdates(locationManager.GPS_PROVIDER, 5000, (float)0.1, locationListener);
         currLoc = new LatLng(39.165341, -86.523567);
         mMap.addMarker(new MarkerOptions().position(currLoc));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(currLoc));
@@ -265,7 +265,7 @@ public class MapsActivity extends FragmentActivity implements
         onbutton.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
-                locationManager.requestLocationUpdates(locationManager.GPS_PROVIDER, 5000, 0, locationListener);
+                locationManager.requestLocationUpdates(locationManager.GPS_PROVIDER, 5000, (float)0.1, locationListener);
             }
         });
     }
