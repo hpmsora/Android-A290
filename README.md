@@ -16,14 +16,16 @@ Assignment 1
 
   Create Hello World Project
 
-
 Assignment 2
 
   Design your app with the required functionality given below.
   Requirements:
+  
     Create a Multi-Activity App (Minimum two) with following requirements:
       • Activity 1: Welcome/Login Screen should include text boxes for user to enter first and last names, email address, and password, along with a login button and an element (view) to display the number of login attempts.
+      
       • Prompt the user to select the background color and choose that color for the canvas (of Activity 1 & 2)
+      
       • Ensure that user has entered email in correct format.
       • Save name, email and background color in preferences and use that to update background color of activity 2
       • Disable login button after 3 unsuccessful attempts
