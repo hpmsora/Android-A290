@@ -1,15 +1,16 @@
 # Android-A290<br />
-
+<br />
 Indiana University - Bloomington<br />
-
+<br />
 CSCI-A 290<br />
-
+<br />
 Written by **Won Yong Ha**<br />
-
+<br />
 Exploration of topics in computing. This course introduces the basics of Android application development for common devices and will review design considerations, creation and deployment of real apps utilizing mobile device capabilities including sensors.<br />
-
+<br />
 * Assignment 1<br />
   * Create Hello World Project<br />
+<br />
 * Assignment 2<br />
   * Design your app with the required functionality given below.<br />
   * Requirements:<br />
@@ -26,6 +27,7 @@ Exploration of topics in computing. This course introduces the basics of Android
       * Perform the arithmetic operation after proper checks (i.e., avoid divide by zero and other common errors). Show toast warnings for errors!<br /><br />
     Either add another activity or include this on previous activity<br />
       * Prompt the user to enter a date in future (check to make sure that user has done that, show warning if not and ask for new date). Using today’s date, count the number of days between today and the future date entered by user. Display the number of working days and weekend days (For simplicity, let’s use Saturday and Sunday as weekend days).
+<br />
 * Assignmet 3<br />
   * Design only two apps with the required functionality (given below)
   * Requirements:<br />
@@ -44,5 +46,4 @@ Exploration of topics in computing. This course introduces the basics of Android
         * Name of the file in the first line of the list-item.
         * Date of modification along with the size of the file side by side in the second line.
       * When the item is clicked, it should be re-directed to the second activity, where the contents of the file should be displayed.
-      * For the purpose of creating this app, sample data can be used and only .txt files can be
-considered.
+      * For the purpose of creating this app, sample data can be used and only .txt files can be considered.
