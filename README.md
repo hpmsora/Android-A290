@@ -70,4 +70,10 @@ Exploration of topics in computing. This course introduces the basics of Android
       * As the name suggests, the app should display a grid layout like a calendar (as this is only a mini project, you can just display one week). The current day should be highlighted with different color. The day tile should contain the number of classes you have on any day. These tiles should be clickable. The items in the grid layout should be from within a fragment and the view is expected to be changed into a linear/list view (titled agenda) within a new fragment and have the same required functionalities.
       * Once a day tile is clicked, the user should be taken to another screen where he/she has a list view of classes/courses on that day. There should also be a floating add button on the screen to add a class/course. [The course/class should display name and time.] The list is expected to be ordered chronologically. Each course/class item should also be clickable. When clicked it should give the option of editing or deleting in a new screen with a save button. When the save button is clicked, it should save the information and revert back to the day screen again.
       * At the day screen if the back button is pressed, it should save the context and display the timetable screen so that if the day is clicked again it should have the changes unaltered. (Hint: Lifecycle functions override)
-      * If ambitious, (for extra credit) the app should notify with a class title using the notification screen about current class details (throughout the duration) in any given day from the information entered.
+      * If ambitious, (for extra credit) the app should notify with a class title using the notification screen about current class details (throughout the duration) in any given day from the information entered.
+      * If ambitious, (for extra credit) the app should notify with a class title using the notification screen about current class details (throughout the duration) in any given day from the information entered
+<br />
+<br />
+* Assignmet 5
+  * Complete one of the previous projects and resubmit the completed/corrected version
+  * Assignment 2 Resubmission
