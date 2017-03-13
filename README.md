@@ -80,7 +80,7 @@ Exploration of topics in computing. This course introduces the basics of Android
 <br />
 <br />
 * Assignment 6
-  * Step Tracker App:
+  * **Step Tracker App**
     * The project is a step tracker application where the user is being tracker using the step counter sensor. User will trigger tracking either by using a gesture. The user will be tracked until the user turns off the tracking which is again done by using a gesture. Thus, the steps taken by the user are being tracked and presented.
     * Here is a list of features to be implemented:
       * The project should make use of map view. The map view in the application will have a marker/pointer for the current user location.
@@ -88,3 +88,18 @@ Exploration of topics in computing. This course introduces the basics of Android
       * The user stops his/her tracking by using double-tap or tilt or fling gesture.
       * Once done, the path the user has taken to walk should be displayed in the map view along with how many steps.
       * Along with the double-tap or tilt or fling feature – if you add one more feature which detects the shake event of the phone and starts tracking after a shake and keeps tracking until the user again shakes the phone or other gesture.
+<br />
+<br />
+* Assignment 7 - Final Project
+  * **Hike Planner App**
+  * The project is a hike planning and fitness assistant where users can plan where to walk based on current location in a map and keep track of the temperature difference as well as get notified of to-do tasks at each location. [Simply speaking, this app is basically a temperature difference tracker and TO-DO logger app based on map view and GPS.]
+  * Here is a list of features to be implemented:
+    * Display a map view in the application which shows the user’s current location.
+    * When the user clicks on the map – the location should be marked. The user can click on any number of places on the map. All those places should be marked and saved. (numbers can be used if the place names are not available)
+    * When the user now clicks on the marked place in the map, then a fragment should be displayed showing the EditText where the user needs to create his TO-DO list of tasks.
+    * When the user is done entering TO-DO list and clicks save – all the items entered should be saved for that particular location. Similarly, each of those individual places selected will have their own notes created by the user and saved.
+    * Now, you need to use the GPS sensor and keep track of where the user moves – if the user visits the location he had previously selected in the map by touching a place – then the notes saved in that particular location should be shown to the user and the user should be notified – a simple toast would do, and the note should be opened and shown to the user. (For extra credit, make the app to run in the background at this point and resume once the user clicks on app again. Please specify in a report.txt file if you have implemented this functionality)
+    * Also, when the user visits the location – the temperature sensor should be used to record the temperature at the location.
+    * When the user visits each new location – the temperatures noted in previous location should be passed between places and the temperature difference should be shown. [This difference should be shown only when the user visits places which he clicked before on the map]
+    * Finally after the user reaches each place in his plan, he should be given an option to view summary of the hike so far. There should be a summary page which shows the list of places the user selected in the map – and the list of places the user has visited so far along with the list of places the user has picked and hasn’t visited so far. Along with these details – the temperature which was noted using temperature sensor and saved in SharedPreference or a file should be shown in the summary.
+    * This data should be present even after closing and reopening the app. (Hint: save and reload the details using a file in the internal storage). Given below are some pictures to help you get started.
