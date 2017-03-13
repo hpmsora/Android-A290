@@ -4,7 +4,7 @@ Indiana University - Bloomington<br />
 
 CSCI-A 290<br />
 
-Written by Won Yong Ha<br />
+Written by **Won Yong Ha**<br />
 
 Exploration of topics in computing. This course introduces the basics of Android application development for common devices and will review design considerations, creation and deployment of real apps utilizing mobile device capabilities including sensors.<br />
 
@@ -26,3 +26,23 @@ Exploration of topics in computing. This course introduces the basics of Android
       * Perform the arithmetic operation after proper checks (i.e., avoid divide by zero and other common errors). Show toast warnings for errors!<br /><br />
     Either add another activity or include this on previous activity<br />
       * Prompt the user to enter a date in future (check to make sure that user has done that, show warning if not and ask for new date). Using today’s date, count the number of days between today and the future date entered by user. Display the number of working days and weekend days (For simplicity, let’s use Saturday and Sunday as weekend days).
+* Assignmet 3<br />
+  * Design only two apps with the required functionality (given below)
+  * Requirements:<br />
+    * App Idea 1:<br />Design and display a simple Music playlist display application with the following:
+      * Use a Grid View/ List view to display the music list.
+      * Each music grid/list item should contain a picture of the music poster along with a description of the music below the music poster.
+      * When the app is launched, let the main Activity have a couple of options such as Display Playlist by Genre or Singer.
+      * Based on the option selected, re-direct to the appropriate activity where the grid/list view is displayed to the user containing the music poster along with its description.
+    * App Idea 2: <br />Design a simple gallery app with following requirements:
+      * Create a grid view/list view to display the gallery.
+      * Each grid item should contain a small preview of the image. When the image is clicked, it should be re-directed to a new activity where the image is displayed in a better size and the description of the image is also provided such as the time/date at which the image was taken along with the dimensions etc.
+      * Real time data need not be used; meaningful data can be plugged in for the purpose of creating the app.
+    * App Idea 3:<br />Create a simple file explorer app with the following:
+      * Display the list of files available in a list-view.
+      * Create a list-view of files in which each list-item should have the following layout:
+        * Name of the file in the first line of the list-item.
+        * Date of modification along with the size of the file side by side in the second line.
+      * When the item is clicked, it should be re-directed to the second activity, where the contents of the file should be displayed.
+      * For the purpose of creating this app, sample data can be used and only .txt files can be
+considered.
