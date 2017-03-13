@@ -35,9 +35,9 @@ Exploration of topics in computing. This course introduces the basics of Android
       * Prompt the user to enter a date in future (check to make sure that user has done that, show warning if not and ask for new date). Using today’s date, count the number of days between today and the future date entered by user. Display the number of working days and weekend days (For simplicity, let’s use Saturday and Sunday as weekend days).
 <br />
 <br />
-* Assignmet 3<br />
+* Assignmet 3
   * Design only two apps with the required functionality (given below)
-  * Requirements:<br />
+  * Requirements:
     * **App Idea 1**:<br />Design and display a simple Music playlist display application with the following:
       * Use a Grid View/ List view to display the music list.
       * Each music grid/list item should contain a picture of the music poster along with a description of the music below the music poster.
@@ -56,4 +56,7 @@ Exploration of topics in computing. This course introduces the basics of Android
       * For the purpose of creating this app, sample data can be used and only .txt files can be considered.
 <br />
 <br />
-
+* Assignmet 4
+  * Design only one app with the required functionality (described below).
+  * Requirements:<br />You are expected to design apps as close to the real To-do and Calendar apps as possible. Feel free to research different design/layout ideas on the web.
+  
