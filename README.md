@@ -1,15 +1,20 @@
-# Android-A290<br />
+# Android-A290
 <br />
-Indiana University - Bloomington<br />
 <br />
-CSCI-A 290<br />
+Indiana University - Bloomington
 <br />
-Written by **Won Yong Ha**<br />
 <br />
-Exploration of topics in computing. This course introduces the basics of Android application development for common devices and will review design considerations, creation and deployment of real apps utilizing mobile device capabilities including sensors.<br />
+CSCI-A 290
 <br />
-* Assignment 1<br />
-  * Create Hello World Project<br />
+<br />
+Written by **Won Yong Ha**
+<br />
+<br />
+Exploration of topics in computing. This course introduces the basics of Android application development for common devices and will review design considerations, creation and deployment of real apps utilizing mobile device capabilities including sensors.
+<br />
+<br />
+* Assignment 1
+  * Create Hello World Project
 <br />
 <br />
 * Assignment 2
@@ -33,16 +38,16 @@ Exploration of topics in computing. This course introduces the basics of Android
 * Assignmet 3<br />
   * Design only two apps with the required functionality (given below)
   * Requirements:<br />
-    * App Idea 1:<br />Design and display a simple Music playlist display application with the following:
+    * **App Idea 1**:<br />Design and display a simple Music playlist display application with the following:
       * Use a Grid View/ List view to display the music list.
       * Each music grid/list item should contain a picture of the music poster along with a description of the music below the music poster.
       * When the app is launched, let the main Activity have a couple of options such as Display Playlist by Genre or Singer.
       * Based on the option selected, re-direct to the appropriate activity where the grid/list view is displayed to the user containing the music poster along with its description.
-    * App Idea 2: <br />Design a simple gallery app with following requirements:
+    * **App Idea 2**: <br />Design a simple gallery app with following requirements:
       * Create a grid view/list view to display the gallery.
       * Each grid item should contain a small preview of the image. When the image is clicked, it should be re-directed to a new activity where the image is displayed in a better size and the description of the image is also provided such as the time/date at which the image was taken along with the dimensions etc.
       * Real time data need not be used; meaningful data can be plugged in for the purpose of creating the app.
-    * App Idea 3:<br />Create a simple file explorer app with the following:
+    * **App Idea 3**:<br />Create a simple file explorer app with the following:
       * Display the list of files available in a list-view.
       * Create a list-view of files in which each list-item should have the following layout:
         * Name of the file in the first line of the list-item.
