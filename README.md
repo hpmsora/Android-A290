@@ -81,13 +81,13 @@ Exploration of topics in computing. This course introduces the basics of Android
 <br />
 * Assignment 6
   * **Step Tracker App**
-    * The project is a step tracker application where the user is being tracker using the step counter sensor. User will trigger tracking either by using a gesture. The user will be tracked until the user turns off the tracking which is again done by using a gesture. Thus, the steps taken by the user are being tracked and presented.
-    * Here is a list of features to be implemented:
-      * The project should make use of map view. The map view in the application will have a marker/pointer for the current user location.
-      * When the user double-taps or tilts or flings on the screen – use gesture detector - start tracking the user’s steps by using step counter sensor. Keep tracking the user until the user stops.
-      * The user stops his/her tracking by using double-tap or tilt or fling gesture.
-      * Once done, the path the user has taken to walk should be displayed in the map view along with how many steps.
-      * Along with the double-tap or tilt or fling feature – if you add one more feature which detects the shake event of the phone and starts tracking after a shake and keeps tracking until the user again shakes the phone or other gesture.
+  * The project is a step tracker application where the user is being tracker using the step counter sensor. User will trigger tracking either by using a gesture. The user will be tracked until the user turns off the tracking which is again done by using a gesture. Thus, the steps taken by the user are being tracked and presented.
+  * Here is a list of features to be implemented:
+    * The project should make use of map view. The map view in the application will have a marker/pointer for the current user location.
+    * When the user double-taps or tilts or flings on the screen – use gesture detector - start tracking the user’s steps by using step counter sensor. Keep tracking the user until the user stops.
+    * The user stops his/her tracking by using double-tap or tilt or fling gesture.
+    * Once done, the path the user has taken to walk should be displayed in the map view along with how many steps.
+    * Along with the double-tap or tilt or fling feature – if you add one more feature which detects the shake event of the phone and starts tracking after a shake and keeps tracking until the user again shakes the phone or other gesture.
 <br />
 <br />
 * Assignment 7 - Final Project
