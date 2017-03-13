@@ -8,10 +8,10 @@ Written by Won Yong Ha
 
 Exploration of topics in computing. This course introduces the basics of Android application development for common devices and will review design considerations, creation and deployment of real apps utilizing mobile device capabilities including sensors.
 
-Assignment 1
+Assignment 1\n
   Create Hello World Project
 
-Assignment 2
+Assignment 2\n
   Design your app with the required functionality given below.
   Requirements:
     Create a Multi-Activity App (Minimum two) with following requirements:
