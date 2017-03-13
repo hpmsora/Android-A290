@@ -2,16 +2,23 @@
 
 Indiana University - Bloomington
 
+
 CSCI-A 290
+
 
 Written by Won Yong Ha
 
+
 Exploration of topics in computing. This course introduces the basics of Android application development for common devices and will review design considerations, creation and deployment of real apps utilizing mobile device capabilities including sensors.
 
-Assignment 1\n
+
+Assignment 1
+
   Create Hello World Project
 
-Assignment 2\n
+
+Assignment 2
+
   Design your app with the required functionality given below.
   Requirements:
     Create a Multi-Activity App (Minimum two) with following requirements:
