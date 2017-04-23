@@ -7,12 +7,10 @@ CSCI-A 290
 Written by **Won Yong Ha**
 
 Exploration of topics in computing. This course introduces the basics of Android application development for common devices and will review design considerations, creation and deployment of real apps utilizing mobile device capabilities including sensors.
-<br />
-<br />
+
 * Assignment 1
   * Create Hello World Project
-<br />
-<br />
+
 * Assignment 2
   * Design your app with the required functionality given below.
   * Requirements:
@@ -29,8 +27,7 @@ Exploration of topics in computing. This course introduces the basics of Android
       * Perform the arithmetic operation after proper checks (i.e., avoid divide by zero and other common errors). Show toast warnings for errors!
     Either add another activity or include this on previous activity
       * Prompt the user to enter a date in future (check to make sure that user has done that, show warning if not and ask for new date). Using today’s date, count the number of days between today and the future date entered by user. Display the number of working days and weekend days (For simplicity, let’s use Saturday and Sunday as weekend days).
-<br />
-<br />
+
 * Assignmet 3
   * Design only two apps with the required functionality (given below)
   * Requirements:
@@ -50,8 +47,7 @@ Exploration of topics in computing. This course introduces the basics of Android
         * Date of modification along with the size of the file side by side in the second line.
       * When the item is clicked, it should be re-directed to the second activity, where the contents of the file should be displayed.
       * For the purpose of creating this app, sample data can be used and only .txt files can be considered.
-<br />
-<br />
+
 * Assignmet 4
   * Design only one app with the required functionality (described below).
   * Requirements:<br />You are expected to design apps as close to the real To-do and Calendar apps as possible. Feel free to research different design/layout ideas on the web.
@@ -68,13 +64,11 @@ Exploration of topics in computing. This course introduces the basics of Android
       * At the day screen if the back button is pressed, it should save the context and display the timetable screen so that if the day is clicked again it should have the changes unaltered. (Hint: Lifecycle functions override)
       * If ambitious, (for extra credit) the app should notify with a class title using the notification screen about current class details (throughout the duration) in any given day from the information entered.
       * If ambitious, (for extra credit) the app should notify with a class title using the notification screen about current class details (throughout the duration) in any given day from the information entered
-<br />
-<br />
+
 * Assignmet 5
   * Complete one of the previous projects and resubmit the completed/corrected version
   * Assignment 2 Resubmission
-<br />
-<br />
+
 * Assignment 6
   * **Step Tracker App**
   * The project is a step tracker application where the user is being tracker using the step counter sensor. User will trigger tracking either by using a gesture. The user will be tracked until the user turns off the tracking which is again done by using a gesture. Thus, the steps taken by the user are being tracked and presented.
@@ -84,8 +78,7 @@ Exploration of topics in computing. This course introduces the basics of Android
     * The user stops his/her tracking by using double-tap or tilt or fling gesture.
     * Once done, the path the user has taken to walk should be displayed in the map view along with how many steps.
     * Along with the double-tap or tilt or fling feature – if you add one more feature which detects the shake event of the phone and starts tracking after a shake and keeps tracking until the user again shakes the phone or other gesture.
-<br />
-<br />
+
 * Assignment 7 - Final Project
   * **Hike Planner App**
   * The project is a hike planning and fitness assistant where users can plan where to walk based on current location in a map and keep track of the temperature difference as well as get notified of to-do tasks at each location. [Simply speaking, this app is basically a temperature difference tracker and TO-DO logger app based on map view and GPS.]
