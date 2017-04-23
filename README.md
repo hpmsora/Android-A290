@@ -1,9 +1,7 @@
 # Android-A290
-<br />
-<br />
+
 Indiana University - Bloomington
-<br />
-<br />
+
 '''javascript
 CSCI-A 290'''
 <br />
