@@ -28,7 +28,7 @@ Exploration of topics in computing. This course introduces the basics of Android
       * Disable login button after 3 unsuccessful attempts
       * Upon entering correct credentials, go to activity 2 (Calculator)
       * Load the saved preferences and display the name and email on activity2
-      * **Activity 2** should also have a simple Calculator interface w/ Background color chosen from user preference in Activty1, along with one number box (user may have fractional numbers and will use the same box for both operands), and buttons for operations (+, -, /, , ^2, ^1/2) in one row. Add another button for operation = in the row below the other buttons and make it as wide as all the other buttons combined. Use grid/Table layout for UI.
+      * **Activity 2** should also have a simple Calculator interface w/ Background color chosen from user preference in Activty1, along with one number box (user may have fractional numbers and will use the same box for both operands), and buttons for operations (+, -, /, *, ^2, ^1/2) in one row. Add another button for operation = in the row below the other buttons and make it as wide as all the other buttons combined. Use grid/Table layout for UI.
       * Display the entire operation string (For example: “5 + 7 = 12”) as user enters the operands and selects operations. Update when needed!
       * Perform the arithmetic operation after proper checks (i.e., avoid divide by zero and other common errors). Show toast warnings for errors!
     Either add another activity or include this on previous activity
