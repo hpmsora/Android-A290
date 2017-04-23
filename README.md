@@ -14,7 +14,7 @@ Exploration of topics in computing. This course introduces the basics of Android
 <br />
 <br />
 * Assignment 1
-* Create Hello World Project
+  * Create Hello World Project
 <br />
 <br />
 * Assignment 2
