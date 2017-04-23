@@ -2,8 +2,8 @@
 
 Indiana University - Bloomington
 
-'''javascript
-CSCI-A 290'''
+```javascript
+CSCI-A 290```
 <br />
 <br />
 Written by **Won Yong Ha**
